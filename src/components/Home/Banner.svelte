@@ -1,6 +1,6 @@
 <script>
-	import { Marquee } from '@selemondev/svelte-marquee';
-	import '@selemondev/svelte-marquee/dist/style.css';
+	// import { Marquee } from '@selemondev/svelte-marquee';
+	// import '@selemondev/svelte-marquee/dist/style.css';
 
 	import gsap from 'gsap';
 	import { onMount } from 'svelte';
@@ -157,9 +157,9 @@
 				<div
 					class="marquee text-primary-color border-y border-y-primary-color absolute left-0 text-[33px] font-bold my-3"
 				>
-					<Marquee innerClassName="[--duration:15s] ">
+					<!-- <Marquee innerClassName="[--duration:15s] ">
 						<h3>WEB DEV • WEB DEV • WEB DEV • WEB DEV •</h3>
-					</Marquee>
+					</Marquee> -->
 				</div>
 
 				<div class="relative top-24 text-center">
