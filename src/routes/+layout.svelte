@@ -1,10 +1,10 @@
 <script>
-  import Header from "../components/Header.svelte";
+	import Header from './Header.svelte';
 </script>
 
 <main>
-  <Header />
-  <main>
-    <slot />
-  </main>
+	<Header />
+	<main>
+		<slot />
+	</main>
 </main>

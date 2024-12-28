@@ -1,5 +1,6 @@
 <script>
 	import Logo from '../images/logo.svg';
+	import '../style.css';
 </script>
 
 <main>
