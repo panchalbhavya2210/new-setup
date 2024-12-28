@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import Banner from "../components/Home/Banner.svelte";
+  import About from "../components/aboutCopm/About.svelte";
+  import "../style.css";
+</script>
+
+<svelte:head>
+  <title>Home • Bhavya Panchal</title>
+  <meta name="description" content="My Webpage" />
+</svelte:head>
+<main>
+  <Banner />
+  <About />
+</main>
