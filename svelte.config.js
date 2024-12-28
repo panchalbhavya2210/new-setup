@@ -12,6 +12,11 @@ import adapter from '@sveltejs/adapter-vercel';
 
 export default {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		alias: {
+			$components: './src/components',
+			$lib: './src/lib',
+			$routes: './src/routes'
+		}
 	}
 };
