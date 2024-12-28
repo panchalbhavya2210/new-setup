@@ -4,7 +4,7 @@
 
 	import gsap from 'gsap';
 	import { onMount } from 'svelte';
-
+	import '../../style.css';
 	let date = new Date();
 	let hour = date.getHours();
 
