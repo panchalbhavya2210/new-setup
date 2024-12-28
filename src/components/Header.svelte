@@ -4,7 +4,7 @@
 
 <main>
 	<div
-		class="hidden loader fixed top-0 w-full h-full left-0 z-50 bg-primary-color flex justify-center items-center"
+		class="hidden loader fixed top-0 w-full h-full left-0 z-50 bg-primary-color justify-center items-center"
 	>
 		<div class="">
 			<span class="text-header-font font-bold">loading...</span>
