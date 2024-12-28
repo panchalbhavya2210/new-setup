@@ -1,17 +1,8 @@
 <script>
 	import Logo from '../images/logo.svg';
-	import '../style.css';
 </script>
 
 <main>
-	<div
-		class="hidden loader fixed top-0 w-full h-full left-0 z-50 bg-primary-color justify-center items-center"
-	>
-		<div class="">
-			<span class="text-header-font font-bold">loading...</span>
-			<span class="block text-right font-bold">awesomeness</span>
-		</div>
-	</div>
 	<header
 		id="header"
 		class="hidden lgmin:grid h-full items-stretch border-b border-b-white-opaque lgmin:grid-cols-6 fixed w-full top-0 z-20 text-light-color bg-[#000]"
@@ -102,18 +93,3 @@
 		</a>
 	</header>
 </main>
-
-<style>
-	.loader {
-		animation: loader 2s cubic-bezier(1, 0, 0, 1) forwards;
-		animation-delay: 2s;
-	}
-	@keyframes loader {
-		0% {
-			transform: translateY(0);
-		}
-		100% {
-			transform: translateY(100%);
-		}
-	}
-</style>
